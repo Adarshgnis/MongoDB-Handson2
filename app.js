@@ -9,5 +9,5 @@ app.use(body.json())
 app.use("/",studentRouter)
 
 app.listen(process.env.PORT,()=>{
-    console.log(`server is running on ${PORT}`)
+    console.log(`server is started on ${PORT}`)
 })
